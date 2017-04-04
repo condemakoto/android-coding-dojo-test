@@ -22,7 +22,7 @@ public class CodingDojoApplication extends Application {
     public void onCreate() {
         super.onCreate();
         this.applicationComponent = DaggerApplicationComponent.builder()
-                .applicationModule(new ApplicationModule(this))
+                .applicationModule(getApplicationModule())
                 .build();
 
         Fabric.with(this, new Crashlytics.Builder().core(new CrashlyticsCore.Builder().disabled(BuildConfig.DEBUG).build()).build());
@@ -30,5 +30,9 @@ public class CodingDojoApplication extends Application {
 
     public ApplicationComponent getApplicationComponent() {
         return this.applicationComponent;
+    }
+
+    protected ApplicationModule getApplicationModule() {
+        return new ApplicationModule(this);
     }
 }

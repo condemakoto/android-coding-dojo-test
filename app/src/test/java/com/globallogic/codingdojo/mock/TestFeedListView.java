@@ -7,7 +7,7 @@ import com.globallogic.codingdojo.view.FeedsView;
  * @author julio.kun
  * @since 0.1
  * <p>
- * <p/>
+ *
  * </p>
  */
 public class TestFeedListView implements FeedsView {

@@ -33,7 +33,7 @@ public class ApplicationModule {
 
     @Provides
     @Singleton
-    FeedsRepository provideFeedRepository(FeedsRepositoryImplementation feedsRepositoryImplementation) {
+    public FeedsRepository provideFeedRepository(FeedsRepositoryImplementation feedsRepositoryImplementation) {
         return feedsRepositoryImplementation;
     }
 }
