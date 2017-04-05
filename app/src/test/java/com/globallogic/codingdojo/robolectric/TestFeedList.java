@@ -112,8 +112,6 @@ public class TestFeedList {
 
         feedsRepository.sendResponseWithError();
 
-        //assertTrue(rv.getAdapter().getItemCount() == 0);
-
         assertTrue(view.findViewById(R.id.rl_no_data_screen_container).getVisibility() == View.GONE);
         assertTrue(view.findViewById(R.id.rl_normal_screen_container).getVisibility() == View.GONE);
         assertTrue(view.findViewById(R.id.rl_error_screen_container).getVisibility() == View.VISIBLE);
