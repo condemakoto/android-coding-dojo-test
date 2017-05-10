@@ -1,7 +1,7 @@
 package com.globallogic.codingdojo.mock;
 
 import com.globallogic.codingdojo.domain.model.RSS;
-import com.globallogic.codingdojo.view.FeedsView;
+import com.globallogic.mvp.view.FeedsView;
 
 /**
  * @author julio.kun

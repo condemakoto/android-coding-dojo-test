@@ -1,4 +1,4 @@
-package com.globallogic.codingdojo.presenters;
+package com.globallogic.mvp.presenters;
 
 /**
  * @author julio.kun

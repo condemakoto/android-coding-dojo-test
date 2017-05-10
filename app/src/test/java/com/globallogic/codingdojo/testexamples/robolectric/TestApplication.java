@@ -1,7 +1,5 @@
-package com.globallogic.codingdojo.robolectric;
+package com.globallogic.codingdojo.testexamples.robolectric;
 
-import com.globallogic.codingdojo.di.component.ApplicationComponent;
-import com.globallogic.codingdojo.di.component.DaggerApplicationComponent;
 import com.globallogic.codingdojo.di.module.ApplicationModule;
 import com.globallogic.codingdojo.ui.CodingDojoApplication;
 

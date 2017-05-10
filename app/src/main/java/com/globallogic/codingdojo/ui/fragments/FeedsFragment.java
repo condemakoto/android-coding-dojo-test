@@ -21,9 +21,9 @@ import com.globallogic.codingdojo.R;
 import com.globallogic.codingdojo.di.component.DaggerFeedComponent;
 import com.globallogic.codingdojo.di.module.ActivityModule;
 import com.globallogic.codingdojo.di.module.FeedModule;
-import com.globallogic.codingdojo.presenters.FeedsPresenter;
+import com.globallogic.mvp.presenters.FeedsPresenter;
 import com.globallogic.codingdojo.ui.adapters.RssAdapter;
-import com.globallogic.codingdojo.view.FeedsView;
+import com.globallogic.mvp.view.FeedsView;
 
 import javax.inject.Inject;
 

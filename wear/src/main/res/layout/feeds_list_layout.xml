@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.wearable.view.WearableRecyclerView
+        android:id="@+id/recycle_view_rss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/text_view_no_data_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No feeds to show" />
+
+    <TextView
+        android:id="@+id/text_view_error_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="An error has occurred. Try again." />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        android:indeterminate="true"
+        android:background="@android:color/black"/>
+</RelativeLayout>

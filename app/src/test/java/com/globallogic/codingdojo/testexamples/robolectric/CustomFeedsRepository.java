@@ -1,4 +1,4 @@
-package com.globallogic.codingdojo.robolectric;
+package com.globallogic.codingdojo.testexamples.robolectric;
 
 import com.globallogic.codingdojo.data.dto.RssDTO;
 import com.globallogic.codingdojo.data.repository.FeedsRepository;

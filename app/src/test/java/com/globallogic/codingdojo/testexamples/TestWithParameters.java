@@ -55,7 +55,7 @@ public class TestWithParameters {
     @Test
     public void testAdd() {
         Adder adder = new Adder();
-        int[][] parameters = new int[][] { {1, 2, 3}, {2, 2, 4} };
+        int[][] parameters = new int[][] { {1, 2, 4}, {2, 2, 4} };
         for (int i = 0; i < parameters.length; i++) {
             int a = parameters[i][0];
             int b = parameters[i][1];

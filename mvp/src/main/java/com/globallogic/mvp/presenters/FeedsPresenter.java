@@ -1,9 +1,9 @@
-package com.globallogic.codingdojo.presenters;
+package com.globallogic.mvp.presenters;
 
 import com.globallogic.codingdojo.domain.callback.Callback;
 import com.globallogic.codingdojo.domain.interactors.GetFeedsUseCase;
 import com.globallogic.codingdojo.domain.model.RSS;
-import com.globallogic.codingdojo.view.FeedsView;
+import com.globallogic.mvp.view.FeedsView;
 
 import javax.inject.Inject;
 

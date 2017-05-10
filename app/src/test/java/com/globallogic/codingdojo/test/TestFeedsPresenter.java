@@ -5,8 +5,8 @@ import com.globallogic.codingdojo.di.module.TestPresenterModule;
 import com.globallogic.codingdojo.domain.model.RSS;
 import com.globallogic.codingdojo.mock.CustomRepository;
 import com.globallogic.codingdojo.mock.TestFeedListView;
-import com.globallogic.codingdojo.presenters.BasePresenter;
-import com.globallogic.codingdojo.view.FeedsView;
+import com.globallogic.mvp.presenters.BasePresenter;
+import com.globallogic.mvp.view.FeedsView;
 
 import org.junit.Before;
 import org.junit.Test;

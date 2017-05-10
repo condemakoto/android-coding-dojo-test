@@ -1,4 +1,4 @@
-package com.globallogic.codingdojo.view;
+package com.globallogic.mvp.view;
 
 import com.globallogic.codingdojo.domain.model.RSS;
 

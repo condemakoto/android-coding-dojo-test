@@ -1,4 +1,4 @@
-package com.globallogic.codingdojo.robolectric;
+package com.globallogic.codingdojo.testexamples.robolectric;
 
 import android.content.Intent;
 import android.os.Bundle;

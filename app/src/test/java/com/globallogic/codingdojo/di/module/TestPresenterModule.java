@@ -14,9 +14,9 @@ import com.globallogic.codingdojo.domain.model.Item;
 import com.globallogic.codingdojo.domain.model.RSS;
 import com.globallogic.codingdojo.mock.CustomRepository;
 import com.globallogic.codingdojo.mock.RSSMockFactory;
-import com.globallogic.codingdojo.presenters.BasePresenter;
-import com.globallogic.codingdojo.presenters.FeedsPresenter;
-import com.globallogic.codingdojo.view.FeedsView;
+import com.globallogic.mvp.presenters.BasePresenter;
+import com.globallogic.mvp.presenters.FeedsPresenter;
+import com.globallogic.mvp.view.FeedsView;
 
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
